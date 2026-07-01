@@ -1,0 +1,56 @@
+canonical_identifier: bkk:krp/KR6v0101/ZW/v1
+canonical_location: https://kanripo.org/bkk/KR6v0101/ZW/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 寶髻大王菩薩本緣
+  identifiers:
+    krp: KR6v0101
+    cbeta: ZW09n0074
+    cbeta_old_id: ZW09n0074
+    authorityid: CA0008511
+    json_key: ZW0074
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW09/ZW09n0074.xml
+    old_id: ZW09n0074
+  edition:
+    short: ZW
+assets:
+  parts:
+  - {seq: 1, filename: KR6v0101_001-ZW.yaml, hash: 'sha256:51ef53dff565f4d9a66c94aea8bc1c01f20cc47585f2b4f6c993941319bda313'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0101_001-ZW.markers.yaml, hash: 'sha256:0810b2a7afa5fff35ccd7a930ba1be1788fa9b74c206d878aabd2eeab4cd6ac7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0101_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 38260
+  label: ''
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0101_ZW_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0101_ZW_001-mulu-2
+    span:
+    - body
+    - 1397
+    - 1397
+  label: 正文
+  type: mulu
+  level: 1
+hash: sha256:ea184fb4c771617272181455519a994cc3c6ef9d5a39a88292db63a6cf537523
